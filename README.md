@@ -20,6 +20,7 @@
 
 ### Задание 1
 
+Написал такой конфиг:
 
 ```
 global
@@ -77,3 +78,13 @@ listen stats
     stats admin if TRUE
 
 ```
+
+Запустил и проверил балансировку:
+
+<img width="1372" height="577" alt="2026-03-18_20-28-50" src="https://github.com/user-attachments/assets/d106f604-8d38-435e-9c9a-ab3f23bc183e" />
+
+Процессы в фоне на сервере:
+
+<img width="796" height="117" alt="2026-03-18_20-29-30" src="https://github.com/user-attachments/assets/1628d452-4c1d-49c0-ba03-3e1cb90bc59d" />
+
+
